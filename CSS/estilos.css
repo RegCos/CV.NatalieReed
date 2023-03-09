@@ -1,12 +1,13 @@
 /**Estilo de la sección inicio*/
 
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 
-body {background-image: url();
+body {background-image: url(https://w0.peakpx.com/wallpaper/868/245/HD-wallpaper-dark-purple-dark-purple.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -85,6 +86,7 @@ background-size: cover;
   transform: translateX(-50%);
 }
   
+
 .inicio .contenedor_seccion .foto{
   position: relative;
   border: 2px solid black;
@@ -93,7 +95,7 @@ background-size: cover;
 
 .inicio .contenedor_seccion .foto img{
   border-radius: 50%;
-  border-bottom: 5px solid black;
+  border: 5px solid black;
   position: absolute;
   left: 50%;
   top: -100px;
@@ -110,17 +112,16 @@ background-size: cover;
 
 .datos_personales h3{
   color: #8910a1;
-  padding-left: 370px;
+  padding-left: 450px;
   margin-top: 80px;
   font-size: 30px;
-  background-color: white;
+  padding-bottom: 100px;
 }
 
 .datos_personales .contenedor_seccion header .barra_datos{
-  margin-top: 150px;
-  margin-top: 250px;
+  margin-top: 90px;
   margin-bottom: 100px;
-  padding-left: 320px;
+  padding-left: 380px;
   justify-content: center;
 }
 
@@ -140,13 +141,19 @@ background-size: cover;
   font-size: 30px;
 }
 
+.datos_personales .contenedor_seccion p{
+  color: rgba(85, 75, 75, 0.685);
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+}
 
 /** Estilo de Presentación*/
 
 .Presentacion{
-  border: 2px solid black;
+  border: 4px solid  #8910a1;
   margin: 0px 200px 30px 200px;
-  background-color: rgb(201, 194, 202);
+  background-color: rgba(232, 227, 233, 0.541);
 }
 
 .Presentacion h3{
@@ -155,34 +162,38 @@ background-size: cover;
   justify-content: center;
   text-align: center;
   margin-top: 50px ;
-}
+  }
+  
 .Presentacion p{
-  color: white solid;
+  color: rgb(19, 15, 15) solid;
   font-size: 20px;
+  font-weight: bold;
   justify-content: center;
   text-align: center;
-  margin: 50px 50px 50px 50px;
+  margin: 50px 50px 100px 50px;
   
 }
 
-/**Estilo de las secciones1*/
+/**Estilo de las secciones1 Experiencia profesional*/
 
 .secciones1{
   color: rgb(233, 221, 221);
-  background-color: rgb(78, 42, 82);
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 50px;
-  border: 2px solid black;
+  background-color: rgba(56, 5, 61, 0.897);
+  margin: 0px 200px 50px 200px ;
+  border: 4px solid black;
 }
 
+.secciones1 .contenedor_seccion{
+  padding-left: 120px;
+}
+
+
 .secciones1 h3{
-  margin: auto;
   padding-bottom: 50px;
+  margin-top: 30px;
   text-align: center;
   font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+  }
 
 .secciones1 p{
   margin: auto;
@@ -191,7 +202,6 @@ background-size: cover;
   font-size: 20px;
   text-align: left;
 }
-
 
 .secciones1 ul{
   font-size: 20px;
@@ -207,12 +217,17 @@ background-size: cover;
   margin: 0px 70px 0px 70px
 }
 
-/**Estilo de las secciones2*/
+/**Estilo de las secciones2 - Formación*/
 
 .secciones2 {
-border: 2px solid black;
+border: 4px solid #8910a1;
 margin: 0px 200px 30px 200px;
-background-color: rgb(201, 194, 202);
+background-color: rgba(232, 227, 233, 0.541);
+}
+
+
+.secciones2 .contenedor_formacion{
+  display: flex;
 }
 
 .secciones2 h3{
@@ -220,8 +235,378 @@ background-color: rgb(201, 194, 202);
   font-size: 30px;
   justify-content: center;
   text-align: center;
-  margin: auto ;
+  margin-top: 30px ;
+  margin-bottom: 30px;
 }
 
 
+.secciones2 .contenedor_subapartado h1{
+  color: #8910a1;
+  font-size: 20px;
+  padding-left: 90px;
+}
 
+.secciones2 .contenedor_subapartado p{
+  color: black;
+  font-size: 20px;
+  padding-left: 100px;
+  font-weight: bold;
+
+}
+
+.secciones2  .contenedor_subapartado ul{
+  color: #8910a1;
+  font-size: 15px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.secciones2 .contenedor_subapartado2{
+  padding-left:150px;
+  padding-right: 50px;
+}
+
+.secciones2 .contenedor_subapartado2 h1{
+  color: #8910a1;
+  font-size: 20px;
+  padding-left: 90px;
+}
+
+.secciones2 .contenedor_subapartado2 h2{
+  color: black;
+  font-size: 25px;
+  padding-left: 100px;
+  font-weight: bold;
+}
+
+.secciones2 .contenedor_subapartado2 p{
+  color: black;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+
+/**Estilo de las secciones3 - Habilidades*/
+
+.secciones3 { 
+  color: rgb(233, 221, 221);
+  background-color: rgba(56, 5, 61, 0.897);
+  margin: 0px 200px 50px 200px ;
+  border: 4px solid black;
+  text-align: center;
+}
+
+.secciones3 .contenedor_seccion{
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.secciones3 h3{
+  margin-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.secciones3 .contenedor_seccion .fila{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.secciones3 .contenedor_seccion .fila .col{
+  width: 47%;
+  text-align: left;
+}
+
+.secciones3 .contenedor_seccion .fila .col .cont-barra{
+   display: flex;
+   align-items: center;
+
+}
+
+.secciones3 .contenedor_seccion .barra{
+  display: flex;
+  border: 1px solid white;
+  padding: 2px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.secciones3 .contenedor_seccion .barra .e{
+  background-color: white;
+  width: 20px;
+  height: 30px;
+  margin-right: 2px;
+}
+
+.secciones3 .contenedor_seccion .barra .n{
+  background-color: black;
+  width: 20px;
+  height: 30px;
+  margin-right: 2px;
+}
+
+/**Sección Responsive -para dispositivos de menos de 600px*/
+
+
+@media only screen and (max-width:600px){
+  body{
+    background-image: none;
+    width: 100%;
+  }
+
+  .inicio .contenedor_seccion{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .inicio .contenedor_seccion .imagen_inicio{
+    width: 600px;
+  }
+
+  .inicio .contenedor_seccion .imagen_inicio{
+    width: 100%
+  }
+
+  .inicio .contenedor_seccion .foto{
+    margin:0%;
+    height: auto;
+  }
+
+  .inicio .h2{
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+    font-size: 20px;
+  }
+
+
+  .datos_personales .contenedor_seccion{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .datos_personales .contenedor_seccion h3{
+    padding-left: 0%;
+    margin-top: 100px;
+  }
+
+  
+  .datos_personales .contenedor_seccion p{
+    padding-left: 0%;
+    margin-top: 50px;
+  }
+
+  .datos_personales .contenedor_seccion .barra_datos a{
+    padding-left: 0%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .Presentacion{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .secciones1{
+    width: 100%;
+    margin: 0px;
+  }
+
+  .secciones1 .contenedor_seccion{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .secciones2{
+    width: 100%;
+    margin: 0px;
+  }
+
+  .secciones2 .contenedor_subapartado h1{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado p{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado ul{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado2{
+    padding:0px;
+  }
+
+  .secciones2 .contenedor_subapartado2 h1{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado2 h2{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .secciones3{
+    width: 100%;
+    margin:0%
+  }
+  .secciones3 .contenedor_seccion .fila{
+    display: block;
+  }
+
+  .secciones3 .contenedor_seccion .fila .col{
+    width: 100%;
+    text-align: center;
+  }
+
+  .secciones3 .contenedor_seccion .fila .col .cont-barra{
+    justify-content: center;
+  }
+
+  .secciones2 .contenedor_formacion{
+    display: block;
+    text-align: center;
+  }
+}
+
+/**Sección Responsive -para dispositivos de menos de 1200px*/
+
+@media only screen and (max-width:1200px){
+  body{
+    background-image: none;
+    width: 100%;
+  }
+
+  .inicio .contenedor_seccion{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+
+  .inicio .contenedor_seccion .foto img{
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+  } 
+
+  .inicio .contenedor_seccion .h2{
+    margin: 0px;
+    position: none;
+  }
+
+  .datos_personales .contenedor_seccion{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .datos_personales .contenedor_seccion h3{
+    padding-left: 0%;
+    margin-top: 100px;
+  }
+
+
+  
+  
+  .datos_personales .contenedor_seccion p{
+    padding-left: 0%;
+    margin-top: 50px;
+  }
+
+  .datos_personales .contenedor_seccion .barra_datos a{
+    padding-left: 0%;
+    margin: 0px;
+
+  }
+
+  .Presentacion{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .secciones1{
+    width: 100%;
+    margin: 0px;
+  }
+
+  .secciones1 .contenedor_seccion{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .secciones2{
+    width: 100%;
+    margin: 0px;
+  }
+
+  .secciones2 .contenedor_subapartado h1{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado p{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado ul{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado2{
+    padding:0px;
+  }
+
+  .secciones2 .contenedor_subapartado2 h1{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado2 h2{
+    padding-left: 0%;
+  }
+
+  .secciones2 .contenedor_subapartado2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .secciones3{
+    width: 100%;
+    margin:0%
+  }
+  .secciones3 .contenedor_seccion .fila{
+    display: block;
+  }
+
+  .secciones3 .contenedor_seccion .fila .col{
+    width: 100%;
+    text-align: center;
+  }
+
+  .secciones3 .contenedor_seccion .fila .col .cont-barra{
+    justify-content: center;
+  }
+  .secciones2 .contenedor_formacion{
+    display: block;
+    text-align: center;
+  }
+}
+
+/**Sección responsive -para dispositivos mayores a 992px hasta 1200px*/
+
+
+
+
+  

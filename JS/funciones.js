@@ -40,5 +40,3 @@ document.getElementById("boton_celular") .onclick =function (){
     document.getElementById("celular") .innerHTML="Mi número de teléfono es (496) 815-1981"
 }
 
-
-
